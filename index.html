@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <title>Guessing Game</title>
+
+        <!-- Bootstrap and CSS here-->     
+        <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+ 
+
+    <body class="container-fluid">
+
+            <div id='app' class='center'>
+        
+                <div id='headers'>
+                    <h1 id='title'>Play the Guessing Game!</h1>
+                    <h3 id='subtitle'>Guess a number between 1-100!</h3>
+                </div>
+        
+                <div id='main'>
+                <div id='input-parent'>
+                    <input id='players-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+                    <br><br><button id='submit'>Go!</button>
+                </div>
+        
+                    <div id='guesses'>
+                    <ul id='guess-list'>
+                        <li class='guess'>1</li>
+                        <li class='guess'>2</li>
+                        <li class='guess'>3</li>
+                        <li class='guess'>4</li>
+                        <li class='guess'>5</li>
+                    </ul>
+                    </div>
+        
+                    <div id="menu-btns" class='row'>
+                        <div class='col-sm-6'>
+                            <button id='reset' class='center btn btn-default btn-game'>Reset</button>
+                        </div>
+                        <div class='col-sm-6'>
+                            <button id='hint'  class='center btn btn-default btn-game'>Hint</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div >
+                <div id='footer' class='row'>
+
+                <div class='col-sm-4 center'>
+                    <img class=='img-responsive' src='fa-logo@2x.png'></img>
+                </div >
+        
+                <div  class='col-sm-4 center'>
+                    <h4>Project by Jeffrey Burns</h4>
+                </div >
+        
+                <div  class='col-sm-4 center'>
+                    <img class=='img-responsive' src='grace_hopper_academy.png'></img>
+                </div >
+        
+                </div>
+            </div>
+        
+    </body>
+</html>

@@ -1,0 +1,60 @@
+.left {
+
+}
+.center {
+    text-align: center;
+}
+.right {
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    line-height: 30px;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+.btn-game {
+    width: 200px;
+    margin: 10px;
+
+}
+
+#guesses {
+
+    margin: 36px;
+    background-color: rgb(0, 255, 13);
+}
+
+#headers {
+
+    background-color: rgb(255, 0, 106);
+}
+
+#main {
+
+    margin: 0 auto 0 auto;
+    background-color: rgb(18, 151, 151);
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: rgb(165, 16, 120);
+    position: fixed;
+    bottom: 0;
+}
+
+
+#players-input {
+    width: 200px;
+    margin: 2em;
+
+}
