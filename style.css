@@ -28,11 +28,6 @@ img {
 
 }
 
-#guesses {
-
-    margin: 36px;
-    background-color: rgb(0, 255, 13);
-}
 
 #headers {
 
@@ -57,12 +52,49 @@ img {
 }
 
 
-#players-input {
-    width: 200px;
-    margin: 2em;
+#guesses {
+    margin: 36px;
+}
+
+
+.guess {
+    display:        inline;
+    font-size:      60px;
+    border:         1px solid black;
+    padding:        0 30px; 
+    border-radius:  10%;
+    margin: 25px;
+
 }
 
 #myID {
     height: 100%;
     padding-top:  16px;
+}
+
+#input-parent{
+    height:         200px;
+    padding:         50px;
+}
+
+#players-input {
+    position:       relative; 
+    top:            0px;
+    left:           25px;
+    border:         1px solid black;
+    height:         100px;
+    width:          100px;
+    border-radius:  100%;
+
+}
+
+
+#submit {
+    position:       relative; 
+    top:            50px;
+    right:           15px;
+    border:         1px solid black;
+    height:         50px;
+    width:          50px;
+    border-radius:  100%;
 }
