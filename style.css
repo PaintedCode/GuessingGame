@@ -45,16 +45,24 @@ img {
     background-color: rgb(18, 151, 151);
 }
 #footer {
-    width: 100%;
+    
     border-top: solid 2px black;
     background-color: rgb(165, 16, 120);
-    position: fixed;
+    /* position: fixed; 
+     width: 100%;
+    */
     bottom: 0;
+
+ 
 }
 
 
 #players-input {
     width: 200px;
     margin: 2em;
+}
 
+#myID {
+    height: 100%;
+    padding-top:  16px;
 }
