@@ -15,6 +15,7 @@ ul {
 
 li {
     line-height: 30px;
+    background-color: rgb(56, 91, 143)
 }
 img {
     display: inline;
@@ -30,22 +31,21 @@ img {
 
 
 #headers {
-
-    background-color: rgb(255, 0, 106);
+    background-color: rgb(255, 255, 255);
 }
 
 #main {
-
     margin: 0 auto 0 auto;
-    background-color: rgb(18, 151, 151);
+    background-color: rgb(150, 150, 150);
+    background-image: url(stars.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*url("../../media/examples/lizard.png");*/
 }
 #footer {
     
     border-top: solid 2px black;
-    background-color: rgb(165, 16, 120);
-    /* position: fixed; 
-     width: 100%;
-    */
+    background-color: white;
     bottom: 0;
 
  
@@ -53,6 +53,7 @@ img {
 
 
 #guesses {
+    height: 200px;
     margin: 36px;
 }
 
@@ -73,8 +74,8 @@ img {
 }
 
 #input-parent{
-    height:         200px;
-    padding:         50px;
+    height:         250px;
+    padding:         75px;
 }
 
 #players-input {
@@ -97,4 +98,9 @@ img {
     height:         50px;
     width:          50px;
     border-radius:  100%;
+    background-color: green;
+}
+
+#menu-btns {
+    height: 100px;
 }
