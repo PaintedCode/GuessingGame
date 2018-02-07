@@ -1,3 +1,7 @@
+/*
+Last Update on 2/7
+*/
+
 function Game () {
     this.playersGuess = null;
     this.pastGuesses = [];
