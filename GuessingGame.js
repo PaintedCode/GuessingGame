@@ -3,10 +3,6 @@ function Game () {
     this.pastGuesses = [];
     this.winningNumber = generateWinningNumber();
     
-    // this.newGame = function () {
-    //     this.playersGuess = null;
-    //     this.pastGuesses = [];
-    // }
 }
 
 
@@ -17,6 +13,8 @@ function generateWinningNumber () {
 
 
 function shuffle (array) {
+
+    // copied from https://bost.ocks.org/mike/shuffle/
 
     var m = array.length, t, i;
 
@@ -43,7 +41,6 @@ function newGame () {
 Game.prototype.playersGuessSubmission = function (guess) {
 
     this.playersGuess = guess;
-    
     return Game.prototype.checkGuess.apply(this)
 
 }
@@ -56,6 +53,7 @@ Game.prototype.checkGuess = function () {
     }
 
     if (this.playersGuess === this.winningNumber){
+
         return 'You Win!';
     }
  
@@ -66,26 +64,30 @@ Game.prototype.checkGuess = function () {
     }
 
     if (this.pastGuesses.length > 4 ) {
+
         return "You Lose." 
     }
 
     if ( Game.prototype.difference.apply(this) < 10 ){
+
         return "You\'re burning up!";
     }
 
     if ( Game.prototype.difference.apply(this) < 25 ){
+
         return 'You\'re lukewarm.';
     }
 
     if ( Game.prototype.difference.apply(this) < 50 ){
+
         return 'You\'re a bit chilly.';
     }
 
     if ( Game.prototype.difference.apply(this) < 100 ){
+
         return 'You\'re ice cold!';
     }
     
-
     return this.playersGuess.toString()
 }
 
